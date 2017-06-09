@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>延迟利息计算器</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/layer_mobile/need/layer.css">
+    <link rel="stylesheet" href="css/mobiscroll.custom-3.0.0-beta6.min.css">
+</head>
+<body class="body-bg">
+<div class="form-box">
+    <form action="" class="layui-form">
+        <div class="form-box-item"  >
+            <span class="fl form-left">标的金额（元）</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="请输入金额" class="lawyer-fees-num f14 color-orange" id="money">
+            </div>
+        </div>
+        <div class="form-box-item">
+            <span class="fl form-left">利率选项</span>
+            <div class="form-right fr">
+                <select name="type" class="f14 tr select">
+                    <option value="1">日利率</option>
+                    <option value="2">月利率</option>
+                    <option value="3">年利率</option>
+                    <option value="4">人民银行同期利率</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+
+        <div class="form-box-item position-re" id="lvbox">
+            <span class="fl form-left">约定利率（%）</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="请输入约定利率" id="ydll" class="lawyer-fees-num f14 color-orange pr15"> <span class="percentsign fr">%</span>
+            </div>
+        </div>
+        <div class="form-box-item">
+            <span class="fl form-left">起算日</span>
+            <div class="form-right fr">
+                <input type="text" placeholder="请选择起算日期" readonly class="lawyer-fees-num f14 color-orange" id="startDate">
+            </div>
+        </div>
+        <div class="form-box-item" >
+            <span class="fl form-left">截止日</span>
+            <div class="form-right fr">
+                <input type="text" placeholder="请选择结束日期" readonly class="lawyer-fees-num f14 color-orange" id="endDate">
+            </div>
+        </div>
+
+        <div class="form-calculate body-bg">
+            <input type="button" class="form-calculate-btn" value="计算" id="submitFees">
+            <input type="reset" class="form-calculate-btn1" value="重置">
+        </div>
+    </form>
+</div>
+
+<script src="js/jquery.2.1.4.min.js"></script>
+<script src="js/layer_mobile/layer.js"></script>
+<script src="js/mobiscroll.custom-3.0.0-beta6.min.js"></script>
+<script src="js/rate.js"></script>
+</body>
+</html>

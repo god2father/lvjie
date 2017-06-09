@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>交通事故</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/layer_mobile/need/layer.css">
+</head>
+<body class="body-bg">
+<div class="form-box">
+    <form action="" class="layui-form">
+        <div class="form-box-item" id="pcxm">
+            <span class="fl form-left">赔偿项目</span>
+            <div class="form-right fr">
+                <select name="trafficType" class="f14 tr select" id="trafficType">
+                    <option value="残疾赔偿金">残疾赔偿金</option>
+                    <option value="死亡赔偿金">死亡赔偿金</option>
+                    <option value="被抚养人生活费">被抚养人生活费</option>
+                    <option value="丧葬费">丧葬费</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="form-box-item position-re" id="bfyrBox">
+            <span class="fl form-left">被扶养人年龄</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="输入被扶养人年龄" class="lawyer-fees-num f14 color-orange pr15" id="bfyr">
+                <span class="percentsign fr" >岁</span>
+            </div>
+        </div>
+        <div class="form-box-item" id="scdj">
+            <span class="fl form-left">伤残等级</span>
+            <div class="form-right fr">
+                <select name="degree" class="f14 tr select">
+                    <option value="100">一级伤残</option>
+                    <option value="90">二级伤残</option>
+                    <option value="80">三级伤残</option>
+                    <option value="70">四级伤残</option>
+                    <option value="60">五级伤残</option>
+                    <option value="50">六级伤残</option>
+                    <option value="40">七级伤残</option>
+                    <option value="30">八级伤残</option>
+                    <option value="20">九级伤残</option>
+                    <option value="10">十级伤残</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+
+        <div class="form-box-item position-re" id="shznl">
+            <span class="fl form-left">受害者年龄</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="输入受害者年龄" maxlength="3" class="lawyer-fees-num f14 color-orange pr15" id="age"> <span class="percentsign fr">岁</span>
+            </div>
+        </div>
+
+        <div class="form-box-item" id="ssfy">
+            <span class="fl form-left">受诉法院地址</span>
+            <div class="form-right fr">
+                <select name="location" class="f14 tr select">
+                    <option value="0">请选择</option>
+                    <option value="340000">安徽</option>
+                    <option value="110000">北京</option>
+                    <option value="500000">重庆</option>
+                    <option value="330000">浙江</option>
+                    <option value="350000">福建</option>
+                    <option value="620000">甘肃</option>
+                    <option value="440000">广东</option>
+                    <option value="450000">广西</option>
+                    <option value="520000">贵州</option>
+                    <option value="460000">海南</option>
+                    <option value="130000">河北</option>
+                    <option value="230000">黑龙江</option>
+                    <option value="410000">河南</option>
+                    <option value="420000">湖北</option>
+                    <option value="430000">湖南</option>
+                    <option value="320000">江苏</option>
+                    <option value="360000">江西</option>
+                    <option value="220000">吉林</option>
+                    <option value="210000">辽宁</option>
+                    <option value="150000">内蒙古</option>
+                    <option value="640000">宁夏</option>
+                    <option value="630000">青海</option>
+                    <option value="370000">山东</option>
+                    <option value="310000">上海</option>
+                    <option value="140000">山西</option>
+                    <option value="610000">陕西</option>
+                    <option value="510000">四川</option>
+                    <option value="120000">天津</option>
+                    <option value="540000">西藏</option>
+                    <option value="650000">新疆</option>
+                    <option value="530000">云南</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="form-box-item" id="shrhk">
+            <span class="fl form-left">受害人户口</span>
+            <div class="form-right fr">
+                <select name="home"  class="f14 tr select">
+                    <option value="1">城镇户口</option>
+                    <option value="2">农村户口</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+
+        <div class="form-box-item position-re" id="ylfy">
+            <span class="fl form-left">医疗费用</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="输入医疗费用" maxlength="12" class="lawyer-fees-num f14 color-orange pr15" id="ylmoney"> <span class="percentsign fr">元</span>
+            </div>
+        </div>
+        <div class="form-box-item position-re" id="yx">
+            <span class="fl form-left">月薪</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="输入月薪" maxlength="10" class="lawyer-fees-num f14 color-orange pr15" id="yxmoney"> <span class="percentsign fr">元</span>
+            </div>
+        </div>
+        <div class="form-box-item position-re" id="wgts">
+            <span class="fl form-left">误工天数</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="输入误工天数" maxlength="3" class="lawyer-fees-num f14 color-orange pr15" id="daynum"> <span class="percentsign fr">天</span>
+            </div>
+        </div>
+        <div class="form-box-item position-re" id="cdyw">
+            <span class="fl form-left" style="width: 60%;">对被抚养人承担义务的人数</span>
+            <div class="form-right fr"  style="width: 40%">
+                <input type="number" placeholder="输入人数" maxlength="2" class="lawyer-fees-num f14 color-orange pr15" id="cdywrs" > <span class="percentsign fr">人</span>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="form-calculate">
+    <input type="button" class="form-calculate-btn" value="计算" id="submitFees">
+    <input type="reset" class="form-calculate-btn1" value="重置">
+</div>
+<script src="js/jquery.2.1.4.min.js"></script>
+<script src="js/layer_mobile/layer.js"></script>
+<script src="js/traffic_accidents.js"></script>
+</body>
+</html>
