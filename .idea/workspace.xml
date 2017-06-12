@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87bc4b43-ec0c-42dd-a2e6-492ce2a1e036" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/city.js" afterPath="$PROJECT_DIR$/js/city.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,10 +51,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="2010">
                   <caret line="134" column="6" lean-forward="false" selection-start-line="134" selection-start-column="6" selection-end-line="134" selection-end-column="6" />
-                  <folding>
-                    <element signature="n#style#0;n#span#0;n#div#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -62,8 +59,8 @@
           <file leaf-file-name="gongshang.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/gongshang.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="259">
-                  <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+                <state relative-caret-position="1470">
+                  <caret line="109" column="5" lean-forward="false" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -71,11 +68,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="costs（诉讼费）.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="costs（诉讼费）.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/costs（诉讼费）.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
-                  <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+                  <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="css.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/css.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2565">
+                  <caret line="171" column="37" lean-forward="false" selection-start-line="171" selection-start-column="37" selection-end-line="171" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -85,7 +92,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="gongshang.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="gongshang.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/gongshang.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="15">
@@ -98,8 +105,8 @@
           <file leaf-file-name="costs.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/costs.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="866">
-                  <caret line="308" column="5" lean-forward="true" selection-start-line="308" selection-start-column="5" selection-end-line="308" selection-end-column="5" />
+                <state relative-caret-position="4620">
+                  <caret line="308" column="5" lean-forward="false" selection-start-line="308" selection-start-column="5" selection-end-line="308" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -108,14 +115,14 @@
           <file leaf-file-name="city.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/city.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="720">
+                <state relative-caret-position="915">
                   <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="city.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="city.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/city.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="15">
@@ -128,8 +135,8 @@
           <file leaf-file-name="gongshang.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/gongshang.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="393">
-                  <caret line="65" column="15" lean-forward="true" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="62" />
+                <state relative-caret-position="975">
+                  <caret line="65" column="15" lean-forward="false" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="62" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -272,7 +279,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -299,10 +308,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lvjie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lvjie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -765,15 +786,17 @@
       <workItem from="1496710874417" duration="12785000" />
       <workItem from="1496797167687" duration="8133000" />
       <workItem from="1496883350940" duration="13310000" />
-      <workItem from="1496969941115" duration="7977000" />
+      <workItem from="1496969941115" duration="8736000" />
+      <workItem from="1497056619732" duration="2252000" />
+      <workItem from="1497229617449" duration="1902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207174000" />
+    <option name="totallyTimeSpent" value="212087000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1002" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1002" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -924,13 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="171" column="37" lean-forward="false" selection-start-line="171" selection-start-column="37" selection-end-line="171" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/劳动补偿金/劳动赔偿金_files/jingjibuchangjin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1011,7 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,10 +1088,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2010">
           <caret line="134" column="6" lean-forward="false" selection-start-line="134" selection-start-column="6" selection-end-line="134" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#9;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1084,32 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="72" column="28" lean-forward="true" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/traffic_accidents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2145">
-          <caret line="143" column="15" lean-forward="false" selection-start-line="134" selection-start-column="11" selection-end-line="143" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/costs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="866">
-          <caret line="308" column="5" lean-forward="true" selection-start-line="308" selection-start-column="5" selection-end-line="308" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/gongshang.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1121,9 +1107,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/costs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4620">
+          <caret line="308" column="5" lean-forward="false" selection-start-line="308" selection-start-column="5" selection-end-line="308" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/city.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
+        <state relative-caret-position="915">
           <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
@@ -1137,10 +1131,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/gongshang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="109" column="5" lean-forward="false" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/traffic_accidents.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="143" column="15" lean-forward="false" selection-start-line="134" selection-start-column="11" selection-end-line="143" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/costs（诉讼费）.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="63" lean-forward="true" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="171" column="37" lean-forward="false" selection-start-line="171" selection-start-column="37" selection-end-line="171" selection-end-column="37" />
           <folding />
         </state>
       </provider>
