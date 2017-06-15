@@ -21,8 +21,8 @@ $("#caseType").change(function(){
     }
 });
 $('#submitFees').click(function () {
-    var city=$('select[name^=city] option:selected').val()
-    var caseType=$('#caseType').val()
+    var city=$('select[name^=city] option:selected').val()//选择的省份
+    var caseType=$('#caseType').val()//案件类型
 
 
     if(caseType==2){
@@ -36,8 +36,6 @@ $('#submitFees').click(function () {
 
     }
 })
-
-
 
 
 //计算刑事案件
@@ -149,7 +147,6 @@ function calcuateCivil(obj) {
     var caseType=$('#caseType').val()//案件类型
     var sjcc = $('#sjcc .active').val()//涉及财产（是、否）
     var ssbd = $('#ssbd input').val()//诉讼标的（涉及金额）
-    lawyer_txt_totalCharge = $("#lawyer_txt_totalCharge");
     // alert(obj+":"+chargeText);
     var i = ssbd;
     pid = parseInt(obj);
