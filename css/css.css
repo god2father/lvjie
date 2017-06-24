@@ -42,6 +42,9 @@ body{
     font-family: arial,"Hiragino Sans GB",Simhei,sans-serif;
     color: #3e474e;
 }
+input::placeholder{
+    font-size: 11px;
+}
 /*文字排版、颜色*/
 .f12{font-size:12px!important;}
 .f13{font-size:13px!important;}
@@ -279,6 +282,7 @@ body{
 .select{
     direction: rtl;
     color: #ff8400;
+    background: #fff;
 }
 .body-bg{
     background: #f9f7f7;
