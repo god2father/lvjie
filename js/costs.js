@@ -1,15 +1,24 @@
 //是否涉及财产UI改变
-$("#ccyes").click(function(){
-    $(this).addClass('active');
-    $("#ccno").removeClass('active');
-    $("#ssbd").css("display","block");
+// $("#ccyes").click(function(){
+//     $(this).addClass('active');
+//     $("#ccno").removeClass('active');
+//     $("#ssbd").css("display","block");
+// });
+// $("#ccno").click(function(){
+//     $(this).addClass('active');
+//     $("#ccyes").removeClass('active');
+//     $("#ssbd").css("display","none");
+// });
+$("#aboutMoney").change(function(){
+    if($(this).val() == 2){
+        $("#ssbd").css("display","none");
+    }else{
+        $("#ssbd").css("display","block");
+    }
+    if($('#ccno').hasClass('active')){
+        $('#ssbd').css('display','none')
+    }
 });
-$("#ccno").click(function(){
-    $(this).addClass('active');
-    $("#ccyes").removeClass('active');
-    $("#ssbd").css("display","none");
-});
-
 
 $("#fullMoney").click(function(){
     $(this).addClass('active');
@@ -36,9 +45,9 @@ $("select[name^=caseType]").change(function(){
 //点击计算按钮
 $('#submitFees').click(function () {
     console.log(caseType)
-    var sjcc = $('#sjcc .active').val()//涉及财产（是、否）
+    var sjcc = $('#aboutMoney').val()//涉及财产（是、否）
 
-    var jsfs = $('#jsfs .active').val()//计算方式（全额、半额）
+    var jsfs = $('#jsfs1').val()//计算方式（全额、半额）
 
     var ssbd = $('#ssbd input').val()//诉讼标的（涉及金额）
 

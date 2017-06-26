@@ -175,6 +175,7 @@ input::placeholder{
     border-bottom: 1px solid #E5E5E5;
     line-height: 30px;
     padding: 10px;
+    position: relative;
 }
 .fl{
     float: left;
@@ -200,23 +201,23 @@ input::placeholder{
 .vm{
     vertical-align: middle;
 }
-.lawyer-switch{
-    display: inline-block;
-    text-align: center;
-    border: solid 1px #158afc;
-    width: 30%;
-    color: #9a9a9a;
-}
-.lawyer-switch-left{
-    border-radius: 4px 0 0 4px;
-}
-.lawyer-switch-right{
-    border-radius: 0 4px 4px 0;
-}
-.lawyer-switch.active {
-    background: #158afc;
-    color: #fff;
-}
+/*.lawyer-switch{*/
+    /*display: inline-block;*/
+    /*text-align: center;*/
+    /*border: solid 1px #158afc;*/
+    /*width: 30%;*/
+    /*color: #9a0924;*/
+/*}*/
+/*.lawyer-switch-left{*/
+    /*border-radius: 4px 0 0 4px;*/
+/*}*/
+/*.lawyer-switch-right{*/
+    /*border-radius: 0 4px 4px 0;*/
+/*}*/
+/*.lawyer-switch.active {*/
+    /*background: #158afc;*/
+    /*color: #fff;*/
+/*}*/
 .lawyer-fees-num{
     border: none;
     width: 100%;
@@ -282,7 +283,12 @@ input::placeholder{
 .select{
     direction: rtl;
     color: #ff8400;
-    background: #fff;
+    background:none;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    width: 90%;
+    line-height: 50px;
 }
 .body-bg{
     background: #f9f7f7;

@@ -1,14 +1,24 @@
 //是否涉及财产UI改变
-$("#ccyes").click(function(){
-    $(this).addClass('active');
-    $("#ccno").removeClass('active');
-    $("#ssbd").css("display","block");
+// $("#ccyes").click(function(){
+//     $(this).addClass('active');
+//     $("#ccno").removeClass('active');
+//     $("#ssbd").css("display","block");
+// });
+$("#aboutMoney").change(function(){
+    if($(this).val() == 2){
+        $("#ssbd").css("display","none");
+    }else{
+        $("#ssbd").css("display","block");
+    }
+    if($('#ccno').hasClass('active')){
+        $('#ssbd').css('display','none')
+    }
 });
-$("#ccno").click(function(){
-    $(this).addClass('active');
-    $("#ccyes").removeClass('active');
-    $("#ssbd").css("display","none");
-});
+// $("#ccno").click(function(){
+//     $(this).addClass('active');
+//     $("#ccyes").removeClass('active');
+//     $("#ssbd").css("display","none");
+// });
 //选择案件类型的UI改变
 $("#caseType").change(function(){
     if($(this).val() == 2){
@@ -16,7 +26,7 @@ $("#caseType").change(function(){
     }else{
         $("#sjcc,#ssbd").css("display","block");
     }
-    if($('#ccno').hasClass('active')){
+    if($('#aboutMoney').val()==2){
         $('#ssbd').css('display','none')
     }
 });
@@ -145,7 +155,7 @@ function calcuateCriminal(city) {
 //计算民事案件
 function calcuateCivil(obj) {
     var caseType=$('#caseType').val()//案件类型
-    var sjcc = $('#sjcc .active').val()//涉及财产（是、否）
+    var sjcc = $('#aboutMoney').val()//涉及财产（是、否）
     var ssbd = $('#ssbd input').val()//诉讼标的（涉及金额）
     // alert(obj+":"+chargeText);
     var i = ssbd;

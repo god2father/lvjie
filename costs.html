@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>诉讼费</title>
+    <title>诉讼费计算器</title>
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="js/layer_mobile/need/layer.css">
@@ -14,8 +14,8 @@
     <form action="" class="layui-form">
         <div class="form-box-item">
             <span class="fl form-left">诉讼类型</span>
-            <div class="form-right fr">
-                <select name="caseType" class="f14 tr select ">
+            <div class="form-right fr" onclick="clickSelect()">
+                <select name="caseType" class="f14 tr select " id="caseType" size="1">
                     <option value="0">选择案件类型</option>
                     <option value="property">财产案件</option>
                     <option value="divorce">离婚案件</option>
@@ -35,7 +35,11 @@
         <div class="form-box-item" id="sjcc">
             <span class="fl form-left">是否涉及财产</span>
             <div class="form-right fr">
-                <option value="1" class="f14 lawyer-switch active lawyer-switch-left" id="ccyes">是</option><option value="2" class="lawyer-switch lawyer-switch-right" id="ccno">否</option>
+                <select name="" id="aboutMoney" class="f14 tr select">
+                    <option value="1" class="" id="ccyes">是</option>
+                    <option value="2" class="" id="ccno">否</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
             </div>
         </div>
         <div class="form-box-item" id="ssbd">
@@ -47,7 +51,11 @@
         <div class="form-box-item" id="jsfs">
             <span class="fl form-left">计算方式</span>
             <div class="form-right fr">
-                <option value="1" class="f14 lawyer-switch active lawyer-switch-left" id="fullMoney">全额</option><option value="2" class="lawyer-switch lawyer-switch-right" id="halfMoney">半额</option>
+                <select name="" id="jsfs1" class="f14 tr select">
+                    <option value="1" class="f14 lawyer-switch active lawyer-switch-left" id="fullMoney">全额</option>
+                    <option value="2" class="lawyer-switch lawyer-switch-right" id="halfMoney">半额</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
             </div>
         </div>
         <div class="form-calculate body-bg">
@@ -60,9 +68,5 @@
 <script src="js/jquery.2.1.4.min.js"></script>
 <script src="js/layer_mobile/layer.js"></script>
 <script src="js/costs.js"></script>
-<script>
-
-</script>
-
 </body>
 </html>

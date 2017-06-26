@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>律师费</title>
+    <title>律师费计算器</title>
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="js/layer_mobile/need/layer.css">
@@ -64,7 +64,11 @@
         <div class="form-box-item" id="sjcc">
             <span class="fl form-left">是否涉及财产</span>
             <div class="form-right fr">
-                <option value="1" class="f14 lawyer-switch active lawyer-switch-left" id="ccyes">是</option><option value="2" class="lawyer-switch lawyer-switch-right" id="ccno">否</option>
+                <select name="" id="aboutMoney" class="f14 tr select">
+                    <option value="1" class="" id="ccyes">是</option>
+                    <option value="2" class="" id="ccno">否</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
             </div>
         </div>
         <div class="form-box-item" id="ssbd">
@@ -90,7 +94,7 @@
 <script src="js/layer_mobile/layer.js"></script>
 <script src="js/lawyer_fees.js"></script>
 <script>
-
+$('#aboutMoney option[id="ccyes"]').css('border','solid 1px #158afc')
 </script>
 
 </body>
