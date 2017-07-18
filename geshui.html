@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>个税计算器</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/layer_mobile/need/layer.css">
+    <link rel="stylesheet" href="css/mobiscroll.custom-3.0.0-beta6.min.css">
+</head>
+<body class="body-bg">
+<div class="form-box">
+    <form action="" class="layui-form">
+        <div class="form-box-item">
+            <span class="fl form-left">收入类型</span>
+            <div class="form-right fr">
+                <select name="caseType" class="f14 tr select " id="type" size="1">
+                    <option value="1">工资、薪金所得（月薪）</option>
+                    <option value="2">工资、薪金所得（月薪 税后）</option>
+                    <option value="3">年终奖所得</option>
+                    <option value="4">劳务报酬所得</option>
+                    <option value="5">个体工商户生产、经营所得</option>
+                    <option value="6">对企事业单位的承包、承租经营所得</option>
+                    <option value="7">稿酬所得</option>
+                    <option value="8">特许权使用费所得</option>
+                    <option value="9">财产租赁所得</option>
+                    <option value="10">财产转让所得</option>
+                    <option value="11">利息、股息、红利所得</option>
+                    <option value="12">偶然所得</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="form-box-item" id="sqgzBox">
+            <span class="fl form-left">税前工资（元）</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="请输入金额" class="lawyer-fees-num f14 color-orange" id="sqgz">
+            </div>
+        </div>
+        <div class="form-box-item" id="shgzBox" style="display: none;">
+            <span class="fl form-left">税后工资（元）</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="请输入金额" class="lawyer-fees-num f14 color-orange" id="shgz">
+            </div>
+        </div>
+        <div class="form-box-item" id="shbzBox">
+            <span class="fl form-left">各项社会保障费（元）</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="请输入金额" class="lawyer-fees-num f14 color-orange" id="shbzf" value="0">
+            </div>
+        </div>
+        <div class="form-box-item" id="qzdBox">
+            <span class="fl form-left">起征点</span>
+            <div class="form-right fr">
+                <select name="" id="qzd" class="f14 tr select">
+                    <option value="1" class="f14 lawyer-switch active lawyer-switch-left">3500</option>
+                    <option value="2" class="lawyer-switch lawyer-switch-right">4800</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="form-box-item" id="nzjjBox" style="display:none">
+            <span class="fl form-left">年终奖金（元）</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="请输入金额" class="lawyer-fees-num f14 color-orange" id="nzjj">
+            </div>
+        </div>
+        <div class="form-box-item" id="srjeBox" style="display: none">
+            <span class="fl form-left">收入金额（元）</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="请输入金额" class="lawyer-fees-num f14 color-orange" id="srje">
+            </div>
+        </div>
+        <div class="form-box-item" id="monthBox" style="display: none">
+            <span class="fl form-left">经营时间</span>
+            <div class="form-right fr">
+                <select name="caseType" class="f14 tr select " id="month" size="1">
+                    <option value="1">1月</option>
+                    <option value="2">2月</option>
+                    <option value="3">3月</option>
+                    <option value="4">4月</option>
+                    <option value="5">5月</option>
+                    <option value="6">6月</option>
+                    <option value="7">7月</option>
+                    <option value="8">8月</option>
+                    <option value="9">9月</option>
+                    <option value="10">10月</option>
+                    <option value="11">11月</option>
+                    <option value="12">12月</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="form-calculate body-bg">
+            <input type="button" class="form-calculate-btn" value="计算" id="submit">
+            <input type="reset" class="form-calculate-btn1" value="重置">
+        </div>
+    </form>
+</div>
+
+<script src="js/jquery.2.1.4.min.js"></script>
+<script src="js/layer_mobile/layer.js"></script>
+<script src="js/geshui.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>房贷计算器</title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/layer_mobile/need/layer.css">
+    <link rel="stylesheet" href="css/mobiscroll.custom-3.0.0-beta6.min.css">
+</head>
+<body class="body-bg">
+<div class="form-box">
+    <form action="" class="layui-form">
+        <div class="form-box-item">
+            <span class="fl form-left">房贷类型</span>
+            <div class="form-right fr">
+                <select name="caseType" class="f14 tr select " id="type" size="1">
+                    <option value="1">商业贷款</option>
+                    <option value="2">公积金贷款</option>
+                    <option value="3">组合贷款</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="form-box-item" id="dkzeBox">
+            <span class="fl form-left">贷款总额</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="请输入金额" class="lawyer-fees-num f14 color-orange pr30" id="dkze"><span class="percentsign fr">万元</span>
+            </div>
+        </div>
+        <div class="form-box-item" id="syBox">
+            <span class="fl form-left">商业贷款</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="请输入金额" class="lawyer-fees-num f14 color-orange pr30" id="sydk"><span class="percentsign fr">万元</span>
+            </div>
+        </div>
+        <div class="form-box-item" id="gjjBox">
+            <span class="fl form-left">公积金贷款</span>
+            <div class="form-right fr">
+                <input type="number" placeholder="请输入金额" class="lawyer-fees-num f14 color-orange pr30" id="gjjdk"> <span class="percentsign fr">万元</span>
+            </div>
+        </div>
+        <div class="form-box-item" >
+            <span class="fl form-left">贷款年限</span>
+            <div class="form-right fr">
+                <select name="caseType" class="f14 tr select " id="year" size="1">
+                    <option value="1">1年（12期）</option>
+                    <option value="2">2年（24期）</option>
+                    <option value="3">3年（36期）</option>
+                    <option value="4">4年（48期）</option>
+                    <option value="5">5年（60期）</option>
+                    <option value="6">6年（72期）</option>
+                    <option value="7">7年（84期）</option>
+                    <option value="8">8年（96期）</option>
+                    <option value="9">9年（108期）</option>
+                    <option value="10">10年（120期）</option>
+                    <option value="11">11年（132期）</option>
+                    <option value="12">12年（144期）</option>
+                    <option value="13">13年（156期）</option>
+                    <option value="14">14年（168期）</option>
+                    <option value="15">15年（180期）</option>
+                    <option value="16">16年（192期）</option>
+                    <option value="17">17年（204期）</option>
+                    <option value="18">18年（216期）</option>
+                    <option value="19">19年（228期）</option>
+                    <option value="20" selected>20年（240期）</option>
+                    <option value="25">25年（300期）</option>
+                    <option value="30">30年（360期）</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="form-box-item" id="llBox">
+            <span class="fl form-left">贷款利率</span>
+            <div class="form-right fr">
+                <select name="caseType" class="f14 tr select " id="dkll" size="1">
+                    <option value="1">17年7月1日利率上限（1.1倍）</option>
+                    <option value="2">17年7月1日利率下限（95折）</option>
+                    <option value="3">17年7月1日利率下限（9折）</option>
+                    <option value="4">17年7月1日利率下限（88折）</option>
+                    <option value="5">17年7月1日利率下限（85折）</option>
+                    <option value="6">17年7月1日利率下限（7折）</option>
+                    <option value="7" selected>17年7月1日基准利率</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="form-box-item position-re" id="syllBox">
+            <span class="fl form-left">商业利率（%）</span>
+            <div class="form-right fr">
+                <input type="number" value="4.9" id="syll" class="lawyer-fees-num f14 color-orange pr15"> <span class="percentsign fr">%</span>
+            </div>
+        </div>
+        <div class="form-box-item position-re" id="gjjllBox">
+            <span class="fl form-left">公积金利率（%）</span>
+            <div class="form-right fr">
+                <input type="number" value="3.25" id="gjjll" class="lawyer-fees-num f14 color-orange pr15"> <span class="percentsign fr">%</span>
+            </div>
+        </div>
+        <div class="form-box-item" id="jsfs">
+            <span class="fl form-left">还款方式</span>
+            <div class="form-right fr">
+                <select name="" id="hkfs" class="f14 tr select">
+                    <option value="1" class="f14 lawyer-switch active lawyer-switch-left" >等额本息</option>
+                    <option value="2" class="lawyer-switch lawyer-switch-right" >等额本金</option>
+                </select>
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+        <div class="form-calculate body-bg">
+            <input type="button" class="form-calculate-btn" value="计算" id="submit">
+            <input type="reset" class="form-calculate-btn1" value="重置">
+        </div>
+    </form>
+</div>
+
+<script src="js/jquery.2.1.4.min.js"></script>
+<script src="js/layer_mobile/layer.js"></script>
+<script src="js/fangdai.js"></script>
+</body>
+</html>

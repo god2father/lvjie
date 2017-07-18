@@ -144,6 +144,7 @@ input::placeholder{
 .pr5{padding-right:5px}
 .pr10{padding-right:10px}
 .pr15{padding-right:15px}
+.pr30{padding-right:30px}
 .pr100{padding-right:100px}
 .text-overflow-hidden {
     white-space: nowrap;
@@ -364,4 +365,8 @@ input::placeholder{
     text-align: center;
     color: #666;
     font-size: 10px;
+}
+.jsjg-content{
+    max-height:450px;
+    overflow-y: auto;
 }
